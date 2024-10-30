@@ -23,8 +23,8 @@ A backend API for interacting with an AI-powered chatbot, built using Django RES
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/DeAdiU/Split-Expense.git
-   cd Split-Expense
+   git clone https://github.com/YourUsername/Chat-AI-API.git
+   cd Chat-AI-API
 
 2. Create a virtual environment and install dependencies:
     ```bash
@@ -43,18 +43,16 @@ A backend API for interacting with an AI-powered chatbot, built using Django RES
 1. Authentication:
     - Login - `/login`/ (POST)
     - Register - `/register`/ (POST)
-2. User Expense Management:
-    - Create Expense - `/create_expense/` (POST)
-    - Get Balance - `/balance/` (GET)
-    - Personal Expense - `/expenses/user/` (GET)
-    - Overall Expense - `/expenses/overall/` (GET)
-    - Balance Sheet - `/expenses/balance-sheet/` (GET)
-3. API Documentation:
+2. Chat Management:
+    - Send Message - `/chat/` (POST)
+3. Token Management:
+    - Check Token Balance - `/tokens/balance/` (GET)
+4. API Documentation:
     - Swagger API Docs - `/swagger/` 
 
 ## API Documenatation
 
-The project has integrated Swagger for easy API documentation. You can access the Swagger UI by navigating to the `/swagger/` URL when the server is running. Please use Authorize (enter JWT token) to use protected routes.
+The project has integrated Swagger for easy API documentation. You can access the Swagger UI by navigating to the /swagger/ URL when the server is running. Please use the Authorize button to enter your JWT token for accessing protected routes.
     
 ## Contributing
 
