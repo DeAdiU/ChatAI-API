@@ -1,4 +1,4 @@
-Chat AI API
+# Chat AI API
 
 A backend API for interacting with an AI-powered chatbot, built using Django REST Framework (DRF). The application allows users to register, log in, and send messages to the AI, which provides responses. Tokens are deducted for each interaction, and the chat history is recorded.
 
