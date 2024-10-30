@@ -1,16 +1,14 @@
-# Daily Expenses Sharing Application
+Chat AI API
 
-A backend API for managing daily shared expenses, built using Django REST Framework (DRF). The app supports splitting expenses equally, by exact amounts, or by percentages, with features for user management, expense management, and balance sheet generation.
+A backend API for interacting with an AI-powered chatbot, built using Django REST Framework (DRF). The application allows users to register, log in, and send messages to the AI, which provides responses. Tokens are deducted for each interaction, and the chat history is recorded.
 
 ## Features
 
-- User registration, authentication (JWT-based).
-- Expense creation and splitting among multiple users.
-- Support for splitting:
-  - Equally
-  - By exact amounts
-  - By percentages
-- Balance sheet generation to track owed and paid amounts.
+- User registration and authentication (JWT-based).
+- Send messages to the AI chatbot and receive responses.
+- Token management, with deduction for each query.
+- Chat history tracking, including user messages and AI responses.
+- API documentation via Swagger.
 
 ## Requirements
 
@@ -18,6 +16,7 @@ A backend API for managing daily shared expenses, built using Django REST Framew
 - Django 4.x
 - Django REST Framework
 - PyJWT
+- Google Generative AI (Gemini) SDK
 
 ## Installation
 
